@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [6.6.1](https://github.com/terraform-aws-modules/terraform-aws-vpc/compare/v6.6.0...v6.6.1) (2026-04-02)
+
+### Bug Fixes
+
+* Correct `dns_options.dns_record_ip_type` lookup for `aws_vpc_endpoint` ([#1292](https://github.com/terraform-aws-modules/terraform-aws-vpc/issues/1292)) ([7a28ce8](https://github.com/terraform-aws-modules/terraform-aws-vpc/commit/7a28ce8ec6a17a8ca52710e47763f3a52c155110))
+
 ## [6.6.0](https://github.com/terraform-aws-modules/terraform-aws-vpc/compare/v6.5.1...v6.6.0) (2026-01-08)
 
 ### Features
